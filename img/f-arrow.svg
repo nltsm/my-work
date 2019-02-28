@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.819 10.81">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #d4302f;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <path id="f-arrow" class="cls-1" d="M629.2,77.1l4.7,4.7,4.7-4.7" transform="translate(-76.393 639.303) rotate(-90)"/>
+</svg>

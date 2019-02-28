@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="css/jquery.scrollbar.css">
+	<link rel="stylesheet" href="css/select2.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/jquery-filestyle.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header">
+		<div class="wrapper">
+			<div class="header_content">
+				<a href="" class="header_logo">
+					<img src="img/logo.svg" alt="">
+					<strong><span>my</span>Work</strong>
+				</a>
+				
+				<ul class="header_list">
+					<li class="active"><a href="">Ищу работу</a></li>
+					<li><a href="">Ищу специалиста</a></li>
+					<li><a href="">Войти</a></li>
+				</ul>
+				
+				<div class="header_lang">
+					<div class="header_lang-current">
+						<img src="img/flag/ru.png" alt="">
+						<span>RU</span>
+					</div>
+					
+					<div class="header_lang-dropdown">
+						<div class="header_lang-row">
+							<a href="" class="header_lang-col">
+								<img src="img/flag/uk.png" alt="">
+								<span>EN</span>
+							</a>
+							<a href="" class="header_lang-col">
+								<img src="img/flag/gr.png" alt="">
+								<span>GR</span>
+							</a>
+							<a href="" class="header_lang-col">
+								<img src="img/flag/de.png" alt="">
+								<span>DE</span>
+							</a>
+							<a href="" class="header_lang-col">
+								<img src="img/flag/rs.png" alt="">
+								<span>RS</span>
+							</a>
+							<a href="" class="header_lang-col">
+								<img src="img/flag/fr.png" alt="">
+								<span>FR</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<div class="form-block __logout mfp-hide" id="form-logout">
+	<div class="form-block_content">
+		<div class="form-logout">
+			<div class="form-logout_text">Желаете выйты? <br>Данные будут потеряны</div>
+			
+			<div class="form-logout_row">
+				<div class="form-logout_col">
+					<a href="" class="form-logout_button __light">Выйти</a>
+				</div>
+				<div class="form-logout_col">
+					<a href="" class="form-logout_button __dark popup-close">Отмена</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="form-block_close popup-close"></div>
+</div>
+
+<script>
+	window.onload = function () {
+		openForm('#form-logout');
+	};
+</script>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	<script src="js/bootstrap-datepicker.ru.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
+	<script src="js/jquery.scrollbar.min.js"></script>
+	<script src="js/jquery-filestyle.min.js"></script>
+	<script src="js/select2.min.js"></script>
+	<script src="js/audioplayer.js"></script>
+	<script src="js/recorder.js"></script>
+	<script src="js/lib.js"></script>
+	<script src="js/app.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3tlWbCcY4vawcqAwJgbWjP3DqboRywNY&libraries=places&callback=initMap" async defer></script>
+</body>
+</html>
