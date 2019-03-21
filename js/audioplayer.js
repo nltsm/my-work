@@ -120,6 +120,7 @@
 
                 theAudio.addEventListener('timeupdate', function() {
                     timeCurrent.text(secondsToTime(theAudio.currentTime));
+					timeDuration.text(secondsToTime(theAudio.duration - theAudio.currentTime));
                     barPlayed.width((theAudio.currentTime / theAudio.duration) * 100 + '%');
                 });
 

@@ -1023,8 +1023,8 @@ div.jfilestyle label:hover {
   position: fixed;
   top: 0;
   bottom: 0;
+  left: 0;
   background: #18436B;
-  transform: translateX(10px);
 }
 
 .content_leftbar-icons {
@@ -1815,18 +1815,7 @@ div.jfilestyle label:hover {
 
 .form-auth_ico {
   width: 50px;
-}
-
-.form-auth_ico.__google {
-  padding-left: 15px;
-}
-
-.form-auth_ico.__facebook {
-  padding-left: 7px;
-}
-
-.form-auth_ico.__vk {
-  padding-left: 14px;
+  text-align: center;
 }
 
 .form-auth_text {
@@ -2038,7 +2027,18 @@ div.jfilestyle label:hover {
 
 .form-cart_share-ico {
   margin-bottom: 5px;
-  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 0 3px 3px 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-cart_share-ico img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .form-logout {
@@ -2731,83 +2731,80 @@ div.jfilestyle label:hover {
 }
 
 .profile-edit_input.__tel {
-  background-image: url("../img/input-tel.png");
+  background-image: url("../img/icon/edit/phone.svg");
   background-position: left 6px center;
   background-repeat: no-repeat;
   padding-left: 35px;
   font-size: 14px;
   padding-top: 9px;
   padding-bottom: 10px;
+  background-size: 18px 18px;
 }
 
 .profile-edit_input.__viber {
-  background-image: url("../img/tel-viber.png");
+  background-image: url("../img/icon/edit/viber.svg");
   background-position: left 6px center;
   background-repeat: no-repeat;
   padding-left: 35px;
   font-size: 14px;
   padding-top: 9px;
   padding-bottom: 10px;
+  background-size: 18px 18px;
 }
 
 .profile-edit_input.__skype {
-  background-image: url("../img/input-skype.png");
+  background-image: url("../img/icon/edit/skype.svg");
   background-position: left 6px center;
   background-repeat: no-repeat;
   padding-left: 35px;
   font-size: 14px;
   padding-top: 9px;
   padding-bottom: 10px;
+  background-size: 18px 18px;
 }
 
 .profile-edit_input.__site {
-  background-image: url("../img/site.png");
+  background-image: url("../img/icon/edit/website.svg");
   background-position: left 6px center;
   background-repeat: no-repeat;
   padding-left: 35px;
   font-size: 14px;
   padding-top: 9px;
   padding-bottom: 10px;
+  background-size: 18px 18px;
 }
 
 .profile-edit_input.__whatsapp {
-  background-image: url("../img/input-whatsapp.png");
+  background-image: url("../img/icon/edit/whatsapp.svg");
   background-position: left 6px center;
   background-repeat: no-repeat;
   padding-left: 35px;
   font-size: 14px;
   padding-top: 9px;
   padding-bottom: 10px;
-}
-
-.profile-edit_input.__whatsapp {
-  background-image: url("../img/input-whatsapp.png");
-  background-position: left 6px center;
-  background-repeat: no-repeat;
-  padding-left: 35px;
-  font-size: 14px;
-  padding-top: 9px;
-  padding-bottom: 10px;
+  background-size: 18px 18px;
 }
 
 .profile-edit_input.__telegram {
-  background-image: url("../img/input-telegram.png");
+  background-image: url("../img/icon/edit/telegram.svg");
   background-position: left 6px center;
   background-repeat: no-repeat;
   padding-left: 35px;
   font-size: 14px;
   padding-top: 9px;
   padding-bottom: 10px;
+  background-size: 18px 18px;
 }
 
 .profile-edit_input.__youtube {
-  background-image: url("../img/input-youtube.png");
+  background-image: url("../img/icon/edit/youtube.svg");
   background-position: left 6px center;
   background-repeat: no-repeat;
   padding-left: 35px;
   font-size: 14px;
   padding-top: 9px;
   padding-bottom: 10px;
+  background-size: 18px 18px;
 }
 
 .profile-edit_area {
@@ -2901,9 +2898,10 @@ div.jfilestyle label:hover {
   text-decoration: none;
   color: #323232;
   transition: 0.3s;
-  background-image: url("../img/microphone.png");
+  background-image: url("../img/icon/view/audio.svg");
   background-position: left 9px center;
   background-repeat: no-repeat;
+  background-size: 18px 18px;
 }
 
 .profile-edit_record:hover {
@@ -3477,11 +3475,13 @@ div.jfilestyle label:hover {
 
 .view-work_tel:before {
   content: '';
-  background-image: url("../img/phone-ico.png");
+  background-image: url("../img/icon/phone.svg");
   background-position: top left;
   background-repeat: no-repeat;
-  width: 39px;
-  height: 39px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  margin-right: 5px;
 }
 
 .view-work_icons {
