@@ -1111,7 +1111,7 @@ div.jfilestyle label:hover {
 }
 
 .content_main {
-  padding: 30px 98px;
+  padding: 30px 73px;
 }
 
 .content_right {
@@ -3262,6 +3262,26 @@ div.jfilestyle label:hover {
   background-repeat: no-repeat;
 }
 
+.tab-head {
+  display: flex;
+}
+
+.tab-head a {
+  padding: 11px 30px;
+  text-align: center;
+  text-decoration: none;
+  background: #ffffff;
+  border-radius: 8px 8px 0 0;
+  color: #376692;
+  transition: 0.3s;
+}
+
+.tab-head a.active,
+.tab-head a:hover {
+  background: #7aa8cc;
+  color: #ffffff;
+}
+
 .threads {
   background: #fff;
   padding: 30px 45px;
@@ -3608,7 +3628,7 @@ div.jfilestyle label:hover {
 }
 
 .wrapper-large {
-  width: 1386px;
+  width: 1326px;
   margin: 0 auto;
   padding-right: 10px;
 }
