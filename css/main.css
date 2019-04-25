@@ -3264,6 +3264,7 @@ div.jfilestyle label:hover {
 
 .tab-head {
   display: flex;
+  margin-bottom: 1px;
 }
 
 .tab-head a {
