@@ -89,6 +89,8 @@ app.addModule('datepicker', function () {
 });
 app.addModule('expert', function () {
 	this.init = function () {
+		var audioPlaying = false;
+		
 		var tabLinks = $('.expert_tab-head a');
 		
 		tabLinks.click(function (e) {
@@ -104,6 +106,24 @@ app.addModule('expert', function () {
 				$(this).addClass('active');
 			}
 		})
+		
+		$('.expert_icon.__micro').click(function (e) {
+			e.preventDefault();
+			
+			$(this).toggleClass('active');
+			$(this).find('.expert_audio').toggleClass('active');
+			
+			var audio = $(this).find('audio')[0];
+			
+			
+			if (audioPlaying) {
+				audio.pause();
+				audioPlaying = false;
+			} else {
+				audio.play();
+				audioPlaying = true;
+			}
+		});
 	}
 });
 
